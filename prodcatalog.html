@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1B</title>
+
+    <style>
+    nav li {display: inline;}
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    
+     th, td {
+      border: 1px solid #333 ;
+      padding: 8px 12px;
+      text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li> |
+            <li><a href="#">Product Catalog</a></li> |
+            <li><a href="#">About Us</a></li> |
+            <li><a href="#">Contact Us</a></li> 
+        </ul>
+        
+    </nav>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Product Name</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">SmartPhone</td>
+                <td>Model 1</td>
+                <td >Electronics</td>
+                <td>22000</td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td>Model 2</td>
+                <td>Electronics</td>
+                <td>32000</td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td>Headphones</td>
+                <td>Standard</td>
+                <td>Accessories</td>
+                
+                <td colspan="2">Out Of Stock</td>
+            </tr>
+
+            <tr>
+                <td>Bluetooth Speaker</td>
+                <td>Premium</td>
+                <td>Electronics</td>
+                <td>10000</td>
+                <td>In Stock</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
